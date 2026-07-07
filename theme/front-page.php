@@ -49,7 +49,7 @@ get_header();
     <div class="container section-intro__container" data-aos="fade-up" data-aos-duration="900">
 
       <div class="section-intro__header">
-        <span class="section-intro__label">Über Lipodermie</span>
+        <span class="section-intro__label">Über Lipödermie</span>
         <h2 class="section-title section-intro__title">
           Leichtigkeit im Körper. <span class="section-title__accent">Ruhe im Kopf.</span>
           Sichtbare Veränderung im Spiegel.
