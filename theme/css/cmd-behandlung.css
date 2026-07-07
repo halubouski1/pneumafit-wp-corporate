@@ -425,6 +425,13 @@
   padding-bottom: 200px;
 }
 
+/* Card image on this page is symptoms.png (1106×1204, tall). Override the
+   default swiper aspect-ratio (1106/793 in style.css) so the card matches the
+   image, keeps the px-positioned chips aligned, and doesn't collapse. */
+.therapies-swiper {
+  aspect-ratio: 1274 / 1383;
+}
+
 .therapies__left-area {
   margin-top: 17px;
 }

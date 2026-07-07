@@ -615,8 +615,10 @@ background: linear-gradient(7deg, #fff 0%, #ecfff2 100%);
 }
 
 /* ─── SECTION THERAPIES ─── */
+/* Height is anchored on the swiper's aspect-ratio (see .therapies-swiper) and
+   flows up through content sizing — NOT via a flex:1/height:0 grow-chain, which
+   has no definite height and collapses in Safari. So no flex-grow here. */
 .therapies__desktop-layout {
-  flex: 1;
   min-height: 0;
   display: flex;
   flex-direction: column;
@@ -637,7 +639,6 @@ background: linear-gradient(7deg, #fff 0%, #ecfff2 100%);
 }
 
 .therapies__body {
-  flex: 1;
   min-height: 0;
   display: flex;
   gap: 10px;
@@ -848,11 +849,13 @@ background: linear-gradient(7deg, #fff 0%, #ecfff2 100%);
 .therapies-btn:hover { background: rgba(205, 222, 222, 0.9); }
 
 .therapies-swiper {
-  flex: 1;
+  /* Definite height derived from width → scales smoothly on resize (both axes)
+     and never collapses. 1106/793 = the natural aspect of the card images, so
+     the chips (positioned in px) stay aligned. Tune this ratio if needed. */
+  aspect-ratio: 1106 / 793;
   width: 100%;
   max-width: 100%;
   min-height: 0;
-  height: 0;
   margin: 0;
   overflow: hidden;
 }
