@@ -1,0 +1,1684 @@
+@media (max-width: 1919px) {
+  .container {
+    padding: 0 32px;
+  }
+  /* .header */
+  .header {
+    padding-top: 30px;
+  }
+
+  .header__logo img {
+    width: 90px;
+  }
+
+  .header__nav-link {
+    font-size: 13px;
+  }
+
+  .header__nav-link {
+    padding: 10px 15px;
+  }
+
+  .header__logo {
+    font-size: 20px;
+  }
+
+  .header__btn-outline {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+
+  .header__btn-link {
+    font-size: 13px;
+  }
+
+  /* hero */
+  .hero__title {
+    font-size: 52px;
+    max-width: 1000px;
+    margin-bottom: 20px;
+  }
+
+  .hero__title sup {
+    font-size: 15px;
+  }
+
+  .hero__btn {
+        font-size: 13px;
+        padding: 12px 13px 14px 23px;
+        line-height: 1.5;
+        border-radius: 10px;
+  }
+
+  .hero__btn--secondary {
+    padding-left: 24px;
+    gap: 64px;
+  }
+
+  .hero__desc {
+    font-size: 13px;
+    max-width: 392px;
+  }
+
+  .hero__content {
+    padding-bottom: 30px;
+  }
+
+  .hero__bottom-left {
+    gap: 14px;
+  }
+
+  /* section-intro */
+  .section-title {
+    font-size: 40px;
+  }
+
+  .section-intro__title {
+    max-width: 700px;
+  }
+
+  .section-intro {
+      padding: 100px 0 50px;
+  }
+
+  .section-intro__label {
+    font-size: 13px;
+  }
+
+  .section-intro__header {
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+
+  .intro-card {
+    gap: 200px;
+    padding: 20px;
+  }
+
+  .intro-card__text {
+    font-size: 18px;
+  }
+
+  .intro-card__icon svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  .section-intro__grid {
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .section-intro__video-wrap {
+    height: 800px;
+  }
+
+  .video-play-btn {
+    width: 80px;
+    height: 80px;
+  }
+
+  .video-play-btn svg {
+    width: 20px;
+    height: 25px;
+  }
+
+  /* section-therapies */
+  .section-therapies {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .therapy-tab {
+    font-size: 10px;
+  }
+
+  .therapies__section-title {
+    font-size: 40px;
+  }
+
+  .therapy-card__title {
+    font-size: 42px;
+  }
+
+  .therapy-card__body--wrapper {
+    gap: 15px;
+  }
+
+  .therapy-card__text {
+    font-size: 13px;
+    max-width: 466px;
+  }
+
+  .therapies__card-content {
+    padding: 40px 40px 30px 46px;
+  }
+
+  .therapies-btn {
+    width: 35px;
+    height: 35px;
+    border-radius: 7px;
+  }
+
+  .therapies-btn img {
+    width: 9px;
+    height: 9px;
+  }
+
+  .therapies__arrows {
+    gap: 6px;
+  }
+
+  .therapies__left-area {
+    margin-top: 28px;
+  }
+
+  .therapy-chip {
+    font-size: 13px;
+    width: 158px;
+    height: 158px;
+    min-height: 158px;
+  }
+
+  .therapy-chip--last {
+    width: 178px;
+    height: 178px;
+  }
+
+  .therapies-swiper .swiper-slide:nth-child(1) .therapy-chip:nth-of-type(1) {
+    bottom: 194px !important;
+  }
+
+  .therapies-swiper .swiper-slide:nth-child(1) .therapy-chip:nth-of-type(2) {
+    left: 194px !important;
+  }
+
+  .therapies-swiper .swiper-slide:nth-child(1) .therapy-chip:nth-of-type(3) {
+    right: 194px !important;
+    top: 194px !important;
+  }
+
+  .therapies-swiper .swiper-slide:nth-child(2) .therapy-chip:nth-of-type(1) {
+    bottom: 200px !important;
+  }
+
+  .therapies-swiper .swiper-slide:nth-child(2) .therapy-chip:nth-of-type(2) {
+    left: 200px !important;
+  }
+
+  .therapies-swiper .swiper-slide:nth-child(3) .therapy-chip:nth-of-type(2) {
+    bottom: 186px !important;
+  }
+
+  .therapies-swiper .swiper-slide:nth-child(3) .therapy-chip:nth-of-type(3) {
+    right: 186px !important;
+  }
+
+  .therapies-swiper .swiper-slide:nth-child(4) .therapy-chip:nth-of-type(2) {
+    right: 200px !important;
+  }
+
+  .therapies-swiper .swiper-slide:nth-child(4) .therapy-chip:nth-of-type(3) {
+    top: 392px !important;
+  }
+
+  .therapies-pagination {
+    padding-top: 20px;
+  }
+
+  .therapies-pagination .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+  }
+
+  pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
+  }
+
+  /* section-services */
+  .section-services {
+    padding: 50px 0 75px;
+  }
+
+  .section-services__title {
+    margin-bottom: 20px;
+  }
+
+  .service-card {
+    padding: 425px 40px 40px 40px;
+  }
+
+  .service-card__title {
+    font-size: 40px;
+  }
+
+  .service-card__text {
+    font-size: 13px;
+    max-width: 352px;
+  }
+
+  .service-card__left {
+    gap: 10px;
+  }
+
+  /* .section-reviews */
+  .section-reviews {
+    padding-bottom: 50px;
+  }
+
+  .section-reviews__container {
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+  }
+
+  .section-reviews__title {
+    max-width: 355px;
+    margin-bottom: 150px;
+  }
+
+  .reviews-btn {
+    width: 35px;
+    height: 35px;
+    border-radius: 7px;
+  }
+
+  .section-reviews__nav {
+    gap: 5px;
+  }
+
+  .reviews-btn svg {
+    width: 10px;
+    height: 10px;
+  }
+
+  .reviews-swiper .swiper-slide {
+        width: 300px;
+        height: 403px;
+  }
+
+  .review-card__avatar {
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+  }
+
+  .review-card__inner {
+    left: 94px;
+    top: 90px;
+    gap: 30px;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .review-card__header {
+    gap: 10px;
+  }
+
+  .review-card__bottom {
+    gap: 10px;
+  }
+
+  .review-card__service {
+    font-size: 17px;
+  }
+
+  .review-card__text {
+    font-size: 14px;
+  }
+
+  .section-contact__inner {
+    padding: 30px 40px 50px;
+  }
+
+  .section-contact__top-text {
+    font-size: 15px;
+    max-width: 436px;
+  }
+
+  .section-contact__bottom {
+    margin-top: 373px;
+  }
+
+  .section-contact__title {
+    margin-bottom: 20px;
+  }
+
+  .section-contact__subtitle {
+    font-size: 13px;
+    margin-bottom: 15px;
+  }
+
+  .section-contact__input {
+    padding: 20px;
+  }
+
+  .section-contact__btn {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 13px;
+    padding-left: 37px;
+    padding-right: 37px;
+  }
+
+  .section-contact__form {
+    max-width: 337px;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+
+  .section-contact__input::placeholder {
+    font-size: 13px;
+  }
+
+  .section-contact__privacy {
+    font-size: 10px;
+    max-width: 337px;
+  }
+
+  .section-contact__brand {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .section-contact__divider {
+    margin-bottom: 10px;
+  }
+
+  .section-contact__brand-desc {
+    font-size: 13px;
+  }
+
+  :is(.section-contact, .section-tcta) .gform_wrapper {
+    max-width: 337px;
+    margin-bottom: 10px;
+  }
+
+  :is(.section-contact, .section-tcta) .gform_footer {
+    margin: 5px 0 0;
+  }
+
+  :is(.section-contact, .section-tcta) .gform_wrapper .gfield input {
+    padding: 21px;
+  }
+
+  :is(.section-contact, .section-tcta) .gform_wrapper .gfield input::placeholder {
+    font-size: 13px;
+  }
+
+  /* footer */
+.footer {
+  padding-top: 20px;
+}
+
+.footer__content {
+    padding: 40px 41px 0;
+}
+
+.footer__nav-title {
+  font-size: 16px;
+}
+
+.footer__nav-link {
+  font-size: 13px;
+}
+
+.footer__nav-group {
+  gap: 20px;
+  line-height: 48px;
+}
+
+.footer__content {
+  gap: 40px;
+}
+
+.footer__legal {
+  padding: 20px 0px;
+}
+
+.footer__legal a {
+  font-size: 14px;
+}
+
+.footer__scroll-top {
+  width: 50px;
+  height: 50px;
+}
+
+.footer__email-label {
+  font-size: 12px;
+}
+
+.footer__email {
+  font-size: 18px;
+}
+
+.footer__legal span {
+  font-size: 12px;
+}
+
+/* ─── POPUP ─── */
+.popup {
+  border-radius: 20px;
+  max-width: 737px;
+  padding: 60px 0 60px 30px;
+}
+
+.popup__close {
+  top: 20px;
+  right: 20px;
+  padding: 6px;
+}
+
+.popup__title {
+  font-size: 40px;
+  max-width: 450px;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+}
+
+.popup__form {
+  max-width: 350px;
+}
+
+.popup__inputs-row {
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.popup__input {
+  height: 50px;
+  border-radius: 10px;
+  padding: 0 15px;
+  font-size: 13px;
+}
+
+.popup__input::placeholder {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: rgba(101, 123, 141, 0.45);
+}
+
+.popup__btn {
+  margin-top: 15px;
+  align-self: flex-start;
+}
+
+.popup__decor {
+  position: absolute;
+  right: 0;
+  top: 60%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 0;
+  width: 433px;
+  height: 338px;
+  background-image: url("data:image/svg+xml,%3Csvg width='633' height='538' viewBox='0 0 633 538' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M695.747 186.732C779.415 238.143 847.383 301.201 889.644 361.571C931.932 421.98 948.363 479.516 929.348 520.025C910.333 560.534 859.336 576.638 791.964 569.666C724.638 562.698 641.154 532.692 557.486 481.281C473.819 429.871 405.85 366.813 363.59 306.445C321.301 246.035 304.87 188.498 323.885 147.989C342.9 107.48 393.897 91.3768 461.269 98.3496C528.596 105.318 612.079 135.321 695.747 186.732Z' stroke='%23657B8D' stroke-opacity='0.12'/%3E%3Cpath d='M752.986 349.173C840.635 431.946 904.611 525.34 937.202 609.405C969.806 693.504 970.946 768.096 933.227 813.466C895.508 858.836 825.893 866.61 743.636 842.236C661.412 817.872 566.72 761.425 479.071 678.652C391.422 595.879 327.447 502.485 294.855 418.42C262.251 334.321 261.11 259.729 298.829 214.358C336.548 168.988 406.164 161.215 488.421 185.589C570.645 209.952 665.337 266.399 752.986 349.173Z' stroke='%23657B8D' stroke-opacity='0.12'/%3E%3Cpath d='M573.373 364.551C673.739 403.874 752.848 466.777 799.627 536.666C846.408 606.558 860.83 683.386 831.945 750.623C803.059 817.859 736.29 862.879 651.588 881.256C566.889 899.633 464.312 891.353 363.947 852.031C263.581 812.708 184.471 749.805 137.692 679.916C90.9109 610.024 76.49 533.195 105.376 465.958C134.261 398.722 201.029 353.703 285.731 335.326C370.43 316.949 473.007 325.229 573.373 364.551Z' stroke='%23657B8D' stroke-opacity='0.12'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+  /* menu */
+  .burger-menu {
+    top: 90px;
+    right: 32px;
+    max-width: 400px;
+    padding: 30px 20px;
+    border-radius: 20px;
+  }
+
+  .burger-menu__link {
+    font-size: 25px;
+  }
+
+  .burger-menu__nav {
+    gap: 18px;
+  }
+
+  .burger-menu__label {
+    font-size: 13px;
+    margin-bottom: 14px;
+  }
+
+  .burger-menu__close {
+    top: 20px;
+    right: 20px;
+  }
+
+  /* widget */
+  .phone-widget {
+    width: 50px;
+    height: 50px;
+  }
+
+  .phone-widget svg {
+    width: 23px;
+    height: 23px;
+  }
+
+  /* popup */
+  .popup .gform_wrapper .gfield input {
+    height: 50px;
+    border-radius: 10px;
+    padding: 0 15px;
+    font-size: 13px;
+  }
+
+  .popup .gform_wrapper .gform_fields {
+    max-width: 350px;
+    gap: 10px;
+  }
+
+  .popup .gform_wrapper .gfield input::placeholder {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1470px) {
+    .therapies-swiper .swiper-slide:nth-child(4) .therapy-chip:nth-of-type(3) {
+        top: 340px !important;
+    }
+
+    .therapies-swiper .swiper-slide:nth-child(4) .therapy-chip:nth-of-type(2) {
+        top: 164px !important;
+    }
+}
+
+@media (max-width: 1370px) {
+
+  /* hero */
+  .hero__video--scale {
+    scale: 1.15;
+  }
+
+  /* therapies */
+  .therapies__desktop-layout {
+    display: none;
+  }
+
+  .therapies__tablet-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .therapies__tl-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .therapies__tl-header .therapies__section-title {
+    font-size: 32px;
+    max-width: 70%;
+  }
+
+  .therapies__tl-tabs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+
+  .therapy-tl-tab {
+    background: #e2e9e9;
+    color: #657b8d;
+    border: none;
+    border-radius: 12px;
+    padding: 16px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.3;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    text-align: center;
+  }
+
+  .therapy-tl-tab--active {
+    background: #a5b7b7;
+    color: #fff;
+  }
+
+  .therapy-tl-tab:hover:not(.therapy-tl-tab--active) {
+    background: #cddde0;
+  }
+
+  .therapies__tl-content {
+    background: #e2e9e9;
+    border-radius: 20px;
+    padding: 40px 50px;
+  }
+
+  .therapies__tl-panel {
+    display: none;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .therapies__tl-panel--active {
+    display: flex;
+  }
+
+  .therapies__tl-panel-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .therapies__tl-panel[data-idx="3"] .therapy-card__title {
+    background: linear-gradient(360deg, #657b8d 0%, #1c2227 100%) !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+  }
+
+  .therapies__tl-panel[data-idx="3"] .therapy-card__text {
+    color: #657b8d !important;
+  }
+
+  .therapies__tl-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .tl-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(101, 123, 141, 0.4);
+    cursor: pointer;
+    transition: background 0.2s;
+    display: block;
+  }
+
+  .tl-dot--active {
+    background: #657b8d;
+  }
+
+  .therapies__tl-image {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 16 / 7;
+    position: relative;
+  }
+
+  .therapies__tl-img {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    inset: 0;
+  }
+
+  .therapies__tl-img--active {
+    display: block;
+  }
+
+  .therapies__tl-chips {
+    display: none;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+
+  .therapies__tl-chips--active {
+    display: grid;
+  }
+
+    .therapy-card__text {
+        max-width: 100%;
+    }
+
+  .therapies__tl-chip {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px 15px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #657b8d;
+    min-height: 140px;
+    display: flex;
+    align-items: flex-end;
+    min-width: 0;
+    overflow-wrap: anywhere;
+    word-break: normal;
+    hyphens: auto;
+  }
+
+  /* services */
+
+  .service-card__content {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+
+  /* reviews */
+  .section-reviews__bottom {
+    gap: 370px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .header__nav,
+  .header__btn-outline,
+  .header__btn-link--contact {
+    display: none;
+  }
+
+  .header__burger {
+    display: flex;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+}
+
+@media (max-width: 940px) {
+.hero__bottom {
+  flex-direction: column-reverse;
+  gap: 30px;
+  align-items: start;
+}
+
+.hero__title {
+  font-size: 40px;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+/* .section-intro*/
+.section-intro__grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* .section-services */
+.section-services__grid {
+  grid-template-columns: 1fr;
+
+}
+
+/* .section-reviews__bottom */
+.section-reviews__bottom {
+  gap: 20px;
+  flex-direction: column;
+  align-items: self-start;
+}
+
+.section-reviews__slider-wrap {
+  width: 100%;
+}
+
+/* .section-contact */
+.section-contact__inner {
+  flex-direction: column;
+  gap: 200px;
+  align-items: self-end;
+}
+
+.section-contact__bottom {
+  margin-top: 200px;
+}
+}
+
+@media (max-width: 769px) {
+  .header__burger {
+    width: 50px;
+    height: 50px;
+  }
+
+  .header__burger svg {
+    width: 25px;
+    height: 11px;
+  }
+
+  .mobile-menu__inner {
+    padding: 24px 20px;
+  }
+
+  .mobile-menu__link {
+    font-size: 24px;
+  }
+
+  /* therapies-section */
+  .therapies__tl-tabs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* footer */
+    .footer__nav-group {
+      flex-basis: auto;
+    }
+
+    .footer__scroll-top {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .footer__nav {
+    gap: 20px;
+    align-items: flex-start;
+    }
+
+    .footer__nav-col {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    flex: 1;
+    }
+
+    .footer__nav-group--right {
+    text-align: left;
+    }
+
+    .footer__content {
+      padding: 30px;
+    }
+
+    .footer__bottom-left {
+      display: none;
+    }
+
+    .footer__bottom {
+      justify-content: end;
+      position: relative;
+    }
+
+    .footer__email-info {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .footer__email-label-wrapper {
+      gap: 8px;
+    }
+
+    .footer__legal {
+      align-items: center;
+      padding: 0;
+      gap: 22px;
+    }
+}
+
+@media (max-width: 570px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  /* hero */
+  .header {
+    padding-top: 25px;
+  }
+
+  .header__logo {
+    height: 16px;
+  }
+
+  .header__burger svg {
+    width: 21px;
+    height: 9px;
+  }
+
+  .header__logo img {
+    width: 78px;
+    height: 16px;
+  }
+
+  .header__burger {
+    width: auto;
+    height: auto;
+  }
+
+  .mobile-menu__link {
+    font-size: 18px;
+  }
+
+  .mobile-menu__logo {
+    height: 16px;
+  }
+
+  .mobile-menu__inner {
+    padding: 20px;
+  }
+
+  .mobile-menu__close {
+    width: auto;
+    height: 30px;
+  }
+
+  .mobile-menu__close svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  .mobile-menu__cta {
+    font-size: 13px;
+  }
+
+  .hero__title {
+  font-size: 35px;
+  line-height: 109%;
+  max-width: 283px;
+  }
+    
+  .hero__title sup  {
+    font-size: 12px;
+  }
+
+  .hero__desc {
+    font-size: 13px;
+    line-height: 138%;
+  }
+
+  .hero__btn {
+    min-width: 0;
+    padding: 14px 12px 14px 20px;
+    gap: 10px;
+    white-space: nowrap;
+    border-radius: 10px;
+  }
+
+  .hero__btn svg {
+    width: 8px;
+    height: 8px;
+  }
+
+  .mobile-menu__logo img {
+    width: 78px;
+    height: 16px;
+  }
+
+  .hero__bottom-left {
+    display: grid;
+    grid-template-columns: minmax(0, 2.4fr) minmax(0, 2fr);
+    gap: 8px;
+    width: 100%;
+  }
+
+  .hero__content .hero__btn {
+    justify-content: space-between;
+  }
+
+  .hero__btn--secondary {
+    width: auto !important;
+  }
+
+  .hero__btn svg {
+    flex-shrink: 0;
+  }
+
+  .hero__content {
+    padding-bottom: 36px;
+  }
+
+  /* therapies */
+  .therapies__tablet-layout {
+    gap: 0;
+  }
+
+  .section-therapies {
+    padding: 35px 10px 35px 10px;
+  }
+
+  .therapies__section-title {
+    font-size: 28px !important;
+    line-height: 111%;
+    max-width: 340px !important;
+  }
+
+  .therapy-tl-tab {
+    font-size: 12px;
+  }
+
+  .therapies__tl-header {
+    display: contents;
+  }
+
+  .therapies__tl-header .therapies__section-title {
+    order: 1;
+    margin-bottom: 20px;
+  }
+
+  .therapies__tl-tabs {
+    order: 2;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .therapy-tl-tab {
+    min-height: 47px;
+    border-radius: 10px;
+    padding: 0 28px;
+    line-height: 1.1;
+    white-space: nowrap;
+  }
+
+  .therapy-tl-tab:nth-child(1) {
+    grid-column: 1 / 5;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .therapy-tl-tab:nth-child(2) {
+    grid-column: 5 / -1;
+    padding-right: 29px;
+    padding-left: 28px;
+  }
+
+  .therapy-tl-tab:nth-child(3) {
+    grid-column: 1 / 7;
+  }
+
+  .therapy-tl-tab:nth-child(4) {
+    grid-column: 7 / -1;
+  }
+
+  .therapies__tl-header .therapies__arrows {
+    order: 3;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    gap: 10px;
+  }
+
+  .therapies__tl-content {
+    order: 4;
+    position: relative;
+    overflow: hidden;
+    padding: 30px 20px 20px;
+    height: 410px;
+    border-radius: 10px;
+  }
+
+  .therapies__tl-content::before {
+    content: "";
+    position: absolute;
+    left: 64px;
+    bottom: -87px;
+    height: 100%;
+     width: 120%;
+    background: url("../assets/img/services-cards.png") left bottom / contain no-repeat;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+  }
+
+  .therapies__tl-pagination {
+    order: 5;
+    margin-top: 10px;
+  }
+
+  .therapies__tl-image {
+    order: 6;
+    margin-top: 30px;
+    height: 360px;
+    border-radius: 15px;
+  }
+
+  .therapies__tl-chips {
+    order: 7;
+    margin-top: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .therapies__tl-chip {
+    border-radius: 0;
+    min-height: 165px;
+    line-height: 106%;
+  }
+
+  .therapies__tl-panel {
+    height: 100%;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+  }
+
+  .therapy-card__text {
+    line-height: 138%;
+    max-width: 294px;
+  }
+
+  .therapies__tl-panel-text {
+    gap: 15px;
+  }
+
+  .therapy-card__title {
+    font-size: 28px;
+    line-height: 111%;
+  }
+
+  .therapies-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 13px;
+  }
+
+  .therapy-card__btn {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  /* .section-intro */
+  .section-intro {
+    padding-top: 70px;
+    padding-bottom: 35px;
+  }
+
+  .section-intro__bg-img {
+    height: 800px;
+  }
+
+  .section-intro__header {
+    gap: 20px;
+  }
+
+  .section-intro__title {
+    font-size: 28px;
+    line-height: 111%;
+    max-width: 320px;
+  }
+
+  .section-intro__container {
+    padding: 0 10px;
+  }
+
+  .section-intro__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .intro-card {
+    padding: 30px;
+    gap: 170px;
+    border-radius: 20px;
+  }
+
+  .intro-card--second  .intro-card__text{
+    max-width: 272px;
+  }
+
+  .intro-card--third  .intro-card__text{
+    max-width: 272px;
+  }
+
+  .intro-card--fourth  .intro-card__text {
+    max-width: 259px;
+  }
+
+  .intro-card__icon svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .intro-card__text {
+    font-size: 21px;
+    line-height: 110%;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+
+  .section-intro__video-wrap {
+    height: 233px;
+    border-radius: 30px;
+  }
+
+  .video-play-btn {
+    width: 44px;
+    height: 44px;
+  }
+
+  .video-play-btn svg {
+    width: 12px;
+    height: 13px;
+    margin-left: 2px;
+  } 
+
+
+  /* section-services */
+  .section-services {
+    padding: 35px 0;
+    padding-bottom: 100px;
+  }
+
+  .section-services__container {
+    padding: 0 10px;
+  }
+
+  .section-services__title {
+    font-size: 28px;
+    line-height: 111%;
+    text-align: start;
+    margin-bottom: 10px;
+  }
+
+  .section-services__grid {
+    gap: 30px;
+  }
+
+  .service-card {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    padding: 0;
+    overflow: visible;
+    background-image: none;
+    border-radius: 0;
+  }
+
+  .service-card::after {
+    display: none;
+  }
+
+  .service-card__content {
+    display: contents;
+  }
+
+  .service-card__left {
+    min-height: 290px;
+    padding: 180px 20px 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative;
+    justify-content: flex-end;
+  }
+
+  .service-card__left::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0.15) 45%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .service-card--1 .service-card__left {
+    background-image: url('../assets/img/card-1.png');
+  }
+
+  .service-card--2 .service-card__left {
+    background-image: url('../assets/img/card-2.png');
+  }
+
+  .service-card__left > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  .service-card__btn {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    justify-content: space-between;
+    padding: 14px 12px 14px 20px;
+    border-radius: 10px;
+  }
+
+  .service-card__title {
+    font-size: 28px;
+  }
+  
+  .service-card__text {
+    line-height: 18px;
+    max-width: 300px;
+  }
+
+  /* .section-reviews */
+  .section-reviews {
+    padding: 0;
+  }
+
+  .section-reviews__container {
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background: url(../assets/img/reviews.png) left -196px bottom 0 / cover no-repeat;
+  }
+
+  .section-reviews__title {
+    font-size: 28px;
+    line-height: 111%;
+    max-width: 300px;
+    margin-bottom: 300px;
+  }
+
+  .reviews-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 68px;
+  }
+
+  .reviews-btn:hover {
+    background: #657b8d;
+  }
+
+  .section-reviews__nav {
+    gap: 10px;
+  }
+
+  .reviews-swiper .swiper-slide {
+    width: 265px;
+    height: 420px;
+  }
+
+  .review-card__inner {
+    top: 38px;
+    left: 38px;
+    gap: 73px;
+  }
+
+  .review-card__avatar {
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+  }
+
+  .review-card__header {
+    gap: 12px;
+  }
+
+  .review-card__name {
+    font-size: 10px;
+  }
+
+  .review-card__date {
+    font-size: 7px;
+  }
+
+  .review-card__service {
+    font-size: 21px;
+  }
+
+  .review-card__bottom {
+    gap: 14px;
+  }
+
+  /* .section-contact */
+  .section-contact {
+    padding-top: 124px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .section-contact__inner {
+    padding: 20px;
+    padding-bottom: 40px;
+    gap: 150px;
+  }
+
+  .section-contact__top-text {
+    font-size: 13px;
+    line-height: 138%;
+    max-width: 300px;
+  }
+
+  .section-contact__bottom {
+    margin-top: 155px;
+  }
+
+  .section-contact__title {
+    font-size: 28px;
+    line-height: 111%;
+    margin-bottom: 10px;
+  }
+
+  .section-contact__subtitle {
+    font-size: 14px;
+    line-height: 121%;
+    max-width: 266px;
+    margin-bottom: 45px;
+  }
+
+  .section-contact__input {
+    padding: 26px;
+    padding-left: 20px;
+  }
+
+  .section-contact__form {
+    gap: 10px;
+    max-width: 100%;
+  }
+
+  .section-contact__btn {
+    gap: 15px;
+    padding-top: 25px;
+    padding-bottom: 24px;
+  }
+
+  .section-contact__privacy {
+    font-size: 10px;
+    line-height: 160%;
+    max-width: 254px;
+    align-self: center;
+  }
+
+  .section-contact__brand {
+    font-size: 18px;
+    line-height: 128%;
+    margin-bottom: 10px;
+  }
+
+  .section-contact__brand-desc {
+    line-height: 169%;
+    max-width: 226px;
+  }
+
+  /* .footer */
+  .footer {
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .mobile-only {
+    display: inline-block;
+  }
+
+  .footer__content {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    right: 10px;
+  }
+
+  .footer__nav-link {
+    font-weight: 400;
+    line-height: 31px;
+  }
+
+  .footer__nav-title {
+    font-weight: 600;
+  }
+
+  .footer__nav-group {
+    gap: 30px;
+  }
+
+  .footer__content {
+    gap: 20px;
+  }
+
+  .footer__divider {
+    margin-top: 60px;
+  }
+
+  .footer__email-label {
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+  .footer__email-info {
+    gap: 4px;
+  }
+
+  .footer__legal {
+    flex-direction: row-reverse;
+    padding-top: 60px;
+  }
+
+  .footer__email {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .footer__legal span {
+    font-size: 10px;
+  }
+
+/* ─── POPUP ─── */
+.popup {
+  border-radius: 15px;
+  max-width: 737px;
+  padding: 70px 20px 93px 20px;
+  background: #edf2f2;
+}
+
+.popup-overlay {
+  padding: 15px;
+}
+
+.popup__close {
+  top: 20px;
+  right: 20px;
+  padding: 0px;
+}
+
+.popup__title {
+  font-size: 30px;
+  max-width: 450px;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+}
+
+.popup__form {
+  max-width: 100%;
+}
+
+.popup__inputs-row {
+  gap: 7px;
+  margin-bottom: 7px;
+  flex-direction: column;
+}
+
+.popup__input {
+  height: 47px;
+  border-radius: 10px;
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+.popup__inputs-row .popup__input {
+  flex: none;
+}
+
+.popup__input::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: rgba(101, 123, 141, 0.45);
+}
+
+.popup__btn {
+  margin-top: 15px;
+  align-self: flex-start;
+  width: 100%;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.popup__decor {
+  position: absolute;
+  right: 0;
+  top: 81%;
+  right: 0;
+  pointer-events: none;
+  z-index: 0;
+  width: 265px;
+  height: 191px;
+  background-image: url("data:image/svg+xml,%3Csvg width='265' height='191' viewBox='0 0 265 191' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M318.885 85.863C357.222 109.42 388.354 138.307 407.703 165.946C427.08 193.626 434.524 219.874 425.877 238.294C417.231 256.713 393.995 264.108 363.125 260.913C332.3 257.723 294.058 243.982 255.722 220.425C217.385 196.869 186.253 167.982 166.905 140.343C147.528 112.663 140.083 86.4158 148.729 67.996C157.376 49.5763 180.612 42.1805 211.482 45.3755C242.307 48.5657 280.548 62.3065 318.885 85.863Z' stroke='%23657B8D' stroke-opacity='0.12'/%3E%3Cpath d='M345.074 160.306C385.238 198.236 414.544 241.024 429.469 279.521C444.408 318.053 444.884 352.115 427.692 372.795C410.5 393.474 378.716 397.07 341.028 385.902C303.375 374.745 259.992 348.888 219.828 310.958C179.664 273.029 150.358 230.241 135.433 191.744C120.495 153.213 120.018 119.15 137.21 98.4709C154.402 77.7915 186.186 74.1955 223.874 85.3627C261.528 96.5199 304.91 122.376 345.074 160.306Z' stroke='%23657B8D' stroke-opacity='0.12'/%3E%3Cpath d='M262.788 167.398C308.762 185.411 344.989 214.221 366.404 246.216C387.82 278.213 394.398 313.346 381.2 344.067C368.001 374.789 337.481 395.387 298.704 403.801C259.929 412.213 212.953 408.426 166.978 390.413C121.004 372.401 84.7772 343.59 63.3622 311.596C41.9455 279.598 35.3681 244.466 48.5665 213.744C61.7649 183.022 92.2847 162.424 131.062 154.011C169.837 145.598 216.813 149.386 262.788 167.398Z' stroke='%23657B8D' stroke-opacity='0.12'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* menu */
+  .burger-menu {
+    top: 45px;
+    right: 15px;
+    left: 15px;
+    width: auto;
+    max-width: none;
+    padding: 40px 20px;
+    border-radius: 15px;
+  }
+
+  .burger-menu__link {
+    font-size: 25px;
+    font-weight: 400;
+  }
+
+  .burger-menu__nav {
+    gap: 19px;
+  }
+
+  .burger-menu__label {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .burger-menu__close {
+    top: 20px;
+    right: 20px;
+  }
+
+  /* widget */
+    .phone-widget {
+    right: 16px;
+    bottom: 16px;
+    width: 52px;
+    height: 52px;
+  }
+  .phone-widget svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  :is(.section-contact, .section-tcta) .gform_wrapper .gfield input {
+    padding: 27px;
+    padding-left: 20px;
+    font-size: 16px;
+  }
+
+  :is(.section-contact, .section-tcta) .gform_wrapper .gfield input::placeholder {
+    font-size: 14px;
+  }
+
+  /* popup */
+  .popup .gform_wrapper .gfield.gf-half {
+    flex: none;
+    width: 100%;
+  }
+
+  .popup .gform_wrapper .gform_fields {
+    max-width: 100%;
+    gap: 7px;
+  }
+
+  .popup .gform_wrapper .gfield input {
+    height: 47px;
+    font-size: 14px;
+  }
+
+  .popup .gform_wrapper .gfield input::placeholder {
+    font-size: 14px;
+  }
+}
