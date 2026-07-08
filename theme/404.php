@@ -1,9 +1,17 @@
-<?php get_header( 'black' ); ?>
+<?php get_header(); ?>
 
-<main class="container" style="padding: 200px 20px 140px; text-align: center; color: #151515;">
-  <h1 style="font-size: 90px; line-height: 1; margin-bottom: 20px; color: #20271c;">404</h1>
-  <p style="margin-bottom: 32px;">Sorry, the page you’re looking for can’t be found.</p>
-  <a href="<?php echo esc_url( home_url( '/' ) ); ?>" style="display: inline-block; background: #6E8D65; color: #fff; padding: 14px 28px; border-radius: 5px; text-decoration: none;">Back to home</a>
-</main>
+<section class="error-404">
+  <div class="container error-404__inner">
+    <h1 class="error-404__code">404</h1>
+    <p class="error-404__text">Diese Seite existiert leider nicht oder wurde verschoben.</p>
+    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="hero__btn hero__btn--primary error-404__btn">
+      Zurück zur Startseite
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M7.5 4.375L10.625 7.49999L7.5 10.6249" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M0.625 0.625V4.99999C0.625 5.66303 0.888388 6.29891 1.35723 6.76774C1.82607 7.23658 2.46194 7.49997 3.12498 7.49997H10.6249" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+  </div>
+</section>
 
 <?php get_footer(); ?>
