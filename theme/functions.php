@@ -35,6 +35,10 @@ function pneumafit_theme_setup() {
 }
 add_action( 'after_setup_theme', 'pneumafit_theme_setup' );
 
+// Hide the WordPress admin bar on the front end (the black toolbar shown to
+// logged-in users). The wp-admin dashboard is unaffected.
+add_filter( 'show_admin_bar', '__return_false' );
+
 /**
  * Enqueue styles and scripts for the front end.
  */

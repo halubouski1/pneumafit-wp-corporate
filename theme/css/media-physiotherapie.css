@@ -1186,6 +1186,10 @@
     margin-bottom: 70px;
   }
 
+  .philosophy-text br {
+    display: none;
+  }
+
   .philosophy__text-heading, .philosophy__text-small {
     max-width: 320px;
   }

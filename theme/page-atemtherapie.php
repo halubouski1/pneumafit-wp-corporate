@@ -267,7 +267,7 @@ get_header();
         <h2 class="future__title">Die Atemtherapie</h2>
         <span class="future__sub">Sie kennen sicher das Gefühl, tief durchzuatmen, wenn Sie gestresst sind. Das ist ein kleiner Teil der Atemtherapie.</span>
       </div>
-      <img src="./assets/img/breathing-therapy-left.png" alt="therapy" class="future__img--mobile">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/breathing-therapy-left.png" alt="therapy" class="future__img--mobile">
 
       <div class="future__right">
 
